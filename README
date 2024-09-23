@@ -1,0 +1,43 @@
+# Sistema de Gerenciamento de Hotel
+
+Este projeto é um sistema básico de gerenciamento de hotel desenvolvido em SQL. O sistema permite gerenciar hóspedes, quartos e reservas, com operações de CRUD (Criar, Ler, Atualizar e Deletar) para facilitar o controle de reservas e a organização do hotel.
+
+## Estrutura do Sistema
+
+O sistema é composto por três tabelas principais:
+- **Hóspedes**: Armazena informações sobre os hóspedes.
+- **Quartos**: Contém os dados dos quartos disponíveis no hotel.
+- **Reservas**: Registra as reservas feitas pelos hóspedes, associando quartos e datas de check-in e check-out.
+
+## Funcionalidades
+
+- **Hóspedes**: Adicionar, visualizar, atualizar e remover informações de hóspedes.
+- **Quartos**: Adicionar, visualizar, atualizar e remover dados de quartos, incluindo tipos e preços.
+- **Reservas**: Registrar reservas de hóspedes, consultar disponibilidade de quartos e gerenciar reservas.
+
+### Operações Principais
+
+1. Criar o banco de dados e as tabelas.
+2. Inserir dados de hóspedes, quartos e reservas.
+3. Consultar reservas ativas e disponibilidade de quartos.
+4. Atualizar informações de hóspedes e quartos.
+5. Remover reservas e hóspedes, se necessário.
+
+### Requisitos
+
+- **MySQL** ou outro banco de dados SQL compatível.
+- Ferramentas de gerenciamento de banco de dados, como **MySQL Workbench** ou **DBeaver**.
+
+### Como Executar
+
+1. Clone o repositório ou copie o código SQL.
+2. Execute o script no seu ambiente de banco de dados.
+3. Ajuste as queries de acordo com as necessidades específicas do seu sistema.
+
+### Licença
+
+Este projeto está licenciado sob a licença MIT. Para mais informações, veja o arquivo [LICENSE](./LICENSE).
+
+### Autor
+
+Desenvolvido por [Seu Nome].
